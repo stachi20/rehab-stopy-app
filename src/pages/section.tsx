@@ -34,7 +34,15 @@ export function SectionPage() {
       <div className="space-y-2">
         <div className="flex items-baseline justify-between gap-3">
           <div className="flex items-baseline gap-3">
-            <span className="text-3xl font-mono font-semibold text-primary">{section.id}</span>
+            <span
+              className={
+                section.badge
+                  ? "text-xs font-semibold uppercase tracking-widest px-2 py-0.5 rounded-md bg-primary/10 text-primary self-center"
+                  : "text-3xl font-mono font-semibold text-primary"
+              }
+            >
+              {section.badge ?? section.id}
+            </span>
             <h1 className="text-2xl font-semibold tracking-tight">{section.name}</h1>
           </div>
           <span className="text-sm tabular-nums text-muted-foreground shrink-0">

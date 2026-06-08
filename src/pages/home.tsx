@@ -29,11 +29,14 @@ function SectionRow({ section, completedSet }: { section: Section; completedSet:
             <div className="flex items-baseline gap-3 flex-wrap">
               <span
                 className={cn(
-                  "text-2xl font-mono font-semibold",
-                  hasAny ? "text-emerald-600 dark:text-emerald-400" : "text-primary",
+                  section.badge
+                    ? "text-xs font-semibold uppercase tracking-widest px-2 py-0.5 rounded-md self-center"
+                    : "text-2xl font-mono font-semibold",
+                  section.badge && (hasAny ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400" : "bg-primary/10 text-primary"),
+                  !section.badge && (hasAny ? "text-emerald-600 dark:text-emerald-400" : "text-primary"),
                 )}
               >
-                {section.id}
+                {section.badge ?? section.id}
               </span>
               <h2 className="text-lg font-medium">{section.name}</h2>
               {pinned.length > 0 && (
@@ -70,7 +73,7 @@ export function HomePage() {
   return (
     <div className="space-y-8">
       <div className="space-y-1">
-        <h1 className="text-3xl font-semibold tracking-tight">Rehabilitacja stóp</h1>
+        <h1 className="text-3xl font-semibold tracking-tight">REHAB</h1>
         <p className="text-muted-foreground">
           {totalDone === 0
             ? `${totalAll} ćwiczeń w ${rehabSections.length + runningSections.length} sekcjach. Zacznij od A.`
@@ -91,7 +94,7 @@ export function HomePage() {
             <strong className="text-foreground">Co 2-3 dni dodaj 1 z E</strong> (sesja pełna, ~25 min).
           </p>
           <p>
-            <strong className="text-foreground">W dni biegania:</strong> przed treningiem F1+F2 (rozgrzewka), po treningu F3+F4 (stretching). Niezależnie od reszty.
+            <strong className="text-foreground">W dni biegania:</strong> przed biegiem sekcja <strong>PRZED</strong> (rozgrzewka), po biegu sekcja <strong>PO</strong> (rozciąganie). Niezależnie od reszty.
           </p>
           <p>
             <Star className="inline h-3 w-3 text-amber-500 fill-amber-500 mb-0.5" /> oznacza <strong className="text-amber-600 dark:text-amber-400">priorytet trenera</strong> — jeśli wahasz się którego wybrać w sekcji, bierz te.
@@ -112,9 +115,11 @@ export function HomePage() {
       </section>
 
       {runningSections.length > 0 && (
-        <section className="space-y-3">
+        <section className="space-y-3 border-t-2 border-dashed pt-8 mt-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Bieganie</h2>
+            <h2 className="text-sm font-semibold uppercase tracking-wide flex items-center gap-2">
+              <span aria-hidden>🏃</span> Bieganie
+            </h2>
             <span className="text-xs text-muted-foreground">tylko w dni biegania</span>
           </div>
           <ul className="space-y-3">

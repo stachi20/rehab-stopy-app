@@ -28,6 +28,7 @@ export type Section = {
   name: string
   goal: string
   category: SectionCategory
+  badge?: string
 }
 
 export type ExercisesData = {
