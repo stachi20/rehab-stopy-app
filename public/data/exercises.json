@@ -20,12 +20,18 @@
     },
     {
       "id": "D",
+      "name": "Odporność ścięgien stopy",
+      "goal": "Wzmocnij ścięgna stopy obciążeniem, żeby zniosły bieganie bez nawrotów bólu — boczną krawędź (strzałkowe), tył (rozcięgno/Achilles) i łuk. Rób na rozgrzanej stopie, po sekcji C.",
+      "category": "rehab"
+    },
+    {
+      "id": "E",
       "name": "Pośladki i przywodziciele",
       "goal": "Zbuduj kontrolę rotacyjną biodra i wzmocnij wewnętrzną stronę uda — bez tego stopa zapada, kolano ucieka, gruszkowaty się przeciąża.",
       "category": "rehab"
     },
     {
-      "id": "E",
+      "id": "F",
       "name": "Wzorzec ruchu",
       "goal": "Wypracuj poprawny przysiad i kontrolę kolana — fundament codziennych ruchów.",
       "category": "rehab"
@@ -53,11 +59,20 @@
       "dose": "1–2 min na stronę",
       "timer_seconds": 90,
       "both_sides": true,
-      "equipment": ["piłka lacrosse / do cross", "pistolet masujący (opcjonalnie)"],
+      "equipment": [
+        "piłka lacrosse / do cross",
+        "pistolet masujący (opcjonalnie)"
+      ],
       "variant_prompt": "Wybierz partię",
       "variants": [
-        {"id": "stopa", "label": "Stopa (podeszwa, łuk, boczna krawędź)"},
-        {"id": "posladek", "label": "Pośladek / gruszkowaty"}
+        {
+          "id": "stopa",
+          "label": "Stopa (podeszwa, łuk, boczna krawędź)"
+        },
+        {
+          "id": "posladek",
+          "label": "Pośladek / gruszkowaty"
+        }
       ],
       "instruction": "**Stopa:** stojąc lub siedząc, postaw stopę na piłce. Przetaczaj powoli całą podeszwę — pięta, łuk, **boczna krawędź** (twoje miejsce po biegu). Możesz zamiast piłki użyć pistoletu masującego. Na bolesnym punkcie zatrzymaj się, oddychaj 20–30 s.\n\n**Pośladek:** usiądź pośladkiem na piłce (na podłodze), nogę po tej stronie załóż na drugie kolano. Znajdź napięty punkt w gruszkowatym, lekko się przetaczaj, oddychaj aż zelżeje.",
       "feeling": "tępy ból w napiętych miejscach, ulga po 30 s",
@@ -71,11 +86,19 @@
       "dose": "45 s prosta noga + 45 s ugięte kolano na stronę",
       "timer_seconds": 45,
       "both_sides": true,
-      "equipment": ["klocek do jogi (lub stopień/próg)"],
+      "equipment": [
+        "klocek do jogi (lub stopień/próg)"
+      ],
       "variant_prompt": "Wybierz wersję",
       "variants": [
-        {"id": "gastrocnemius", "label": "Noga prosta — gastrocnemius (góra łydki)"},
-        {"id": "soleus", "label": "Kolano ugięte — soleus (niżej, Achilles)"}
+        {
+          "id": "gastrocnemius",
+          "label": "Noga prosta — gastrocnemius (góra łydki)"
+        },
+        {
+          "id": "soleus",
+          "label": "Kolano ugięte — soleus (niżej, Achilles)"
+        }
       ],
       "instruction": "Stań **przednią częścią stopy na krawędzi klocka**, pięta zwisa w dół. Złap równowagę (ręka o ścianę/mebel). Przenieś ciężar na tę nogę i **wychylaj ciało lekko do przodu**, opuszczając piętę poniżej krawędzi — rozciąga łydkę i Achillesa.\n\n- **Noga prosta (gastrocnemius):** kolano wyprostowane, czujesz w górnej części łydki.\n- **Kolano ugięte (soleus):** lekko ugnij kolano (20–30°), czujesz niżej, bliżej Achillesa.",
       "feeling": "rozciąganie wzdłuż łydki i ścięgna Achillesa",
@@ -89,12 +112,24 @@
       "dose": "45–60 s na stronę",
       "timer_seconds": 60,
       "both_sides": true,
-      "equipment": ["mata", "krzesło (do czwórki siedzącej)"],
+      "equipment": [
+        "mata",
+        "krzesło (do czwórki siedzącej)"
+      ],
       "variant_prompt": "Wybierz wersję",
       "variants": [
-        {"id": "golab", "label": "Pozycja gołębia (na macie)"},
-        {"id": "czworka-plecy", "label": "Czwórka na plecach"},
-        {"id": "czworka-siedzac", "label": "Czwórka siedząc (krzesło / kanapa)"}
+        {
+          "id": "golab",
+          "label": "Pozycja gołębia (na macie)"
+        },
+        {
+          "id": "czworka-plecy",
+          "label": "Czwórka na plecach"
+        },
+        {
+          "id": "czworka-siedzac",
+          "label": "Czwórka siedząc (krzesło / kanapa)"
+        }
       ],
       "instruction": "Dwa warianty tego samego — rozciąganie pośladka. Wybierz jeden.\n\n**Gołąb:** klęk podparty. Przednie kolano do przodu między dłonie — goleń skośnie (kolano po jednej stronie, kostka po drugiej). Tylną nogę wyciągnij prosto. **Biodra równo**, nie kładź się na pośladku. Schodź klatką w dół, oddychaj.\n\n**Czwórka na plecach:** leżąc, kostka jednej nogi na kolanie drugiej (czwórka). Złap za udo z tyłu i przyciągnij do klatki.\n\n**Czwórka siedząc:** na krześle lub kanapie, kostka jednej nogi na kolanie drugiej, pochyl klatkę do przodu z prostymi plecami — aż poczujesz rozciąganie w pośladku. (To ta wersja „kanapowa\".)",
       "feeling": "mocne rozciąganie w pośladku po stronie nogi założonej",
@@ -108,7 +143,9 @@
       "dose": "30 s na stronę",
       "timer_seconds": 30,
       "both_sides": true,
-      "equipment": ["mata / coś miękkiego pod kolano"],
+      "equipment": [
+        "mata / coś miękkiego pod kolano"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Klęknij na jedno kolano (jak do oświadczyn) — tylne kolano na ziemi, przednia stopa płasko z przodu. **Napnij pośladek tylnej nogi i wypchnij biodro do przodu** — miednica podwija się pod siebie. Tułów prosto, nie wyginaj lędźwi do przodu. Czujesz rozciąganie z przodu biodra / pachwiny tylnej nogi. Zmień stronę.",
@@ -123,7 +160,10 @@
       "dose": "10 powt. na stronę",
       "timer_seconds": null,
       "both_sides": true,
-      "equipment": ["guma oporowa", "niski ciężki mebel"],
+      "equipment": [
+        "guma oporowa",
+        "niski ciężki mebel"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Zaczep gumę nisko, za nogę kanapy/biurka. **Stań przodem do mebla, włóż stopę w pętlę** — guma obejmuje przód kostki (tuż nad miejscem, gdzie noga łączy się ze stopą). Cofnij się o krok-dwa **od mebla**, aż guma napina się i ciągnie kostkę z powrotem w stronę mebla. Wykrok — **ćwiczona noga z przodu**, druga z tyłu, obie stopy płasko na podłodze. Powoli wypychaj kolano ponad palce stopy, **nie odrywając pięty**. Wróć. Powtórz.",
@@ -138,7 +178,9 @@
       "dose": "10–15 powt. na stronę",
       "timer_seconds": null,
       "both_sides": true,
-      "equipment": ["mata / coś miękkiego pod kolano"],
+      "equipment": [
+        "mata / coś miękkiego pod kolano"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Półklęk: **ćwiczona noga z przodu, stopa płasko na podłodze**, tylne kolano na macie. Napieraj przednim kolanem do przodu — **ponad palcami stopy**, tak by **pięta ani na chwilę nie oderwała się od podłogi**. Dojdź do granicy, wróć. Kołysz w przód-tył płynnie. To rozrusza zgięcie kostki (dorsifleksję) w naturalnym, „biegowym\" ustawieniu.",
@@ -153,7 +195,9 @@
       "dose": "2 × 45 s",
       "timer_seconds": 45,
       "both_sides": false,
-      "equipment": ["kostki do jogi"],
+      "equipment": [
+        "kostki do jogi"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Stań w lekkim rozkroku (szerszym niż biodra), palce lekko na zewnątrz. Zejdź jak najniżej, jakbyś chciał usiąść między piętami. Łokcie oprzyj od wewnątrz o kolana — rozpychaj kolana na zewnątrz. Plecy proste, klatka otwarta, oddech spokojny. Trzymaj.",
@@ -183,11 +227,20 @@
       "dose": "10 powt. × 5 s (short foot) + 10 powt. (palce)",
       "timer_seconds": 5,
       "both_sides": false,
-      "equipment": ["boso", "krzesło (opcjonalnie)"],
+      "equipment": [
+        "boso",
+        "krzesło (opcjonalnie)"
+      ],
       "variant_prompt": "Wybierz część",
       "variants": [
-        {"id": "short-foot", "label": "Short foot (skrócenie stopy)"},
-        {"id": "rozchylanie", "label": "Rozchylanie palców"}
+        {
+          "id": "short-foot",
+          "label": "Short foot (skrócenie stopy)"
+        },
+        {
+          "id": "rozchylanie",
+          "label": "Rozchylanie palców"
+        }
       ],
       "instruction": "Dwie formy aktywacji drobnych mięśni stopy — boso. Czujesz, nie widzisz.\n\n**Short foot:** wyczuj trójnóg — pięta, podstawa dużego palca, podstawa małego palca, wszystkie przyciśnięte. **Przybliż podstawę dużego palca do pięty** bez zginania palców (palce luźne). Łuk subtelnie się unosi — ruch mikroskopijny, kilka mm. Trzymaj 5 s, rozluźnij.\n\n**Rozchylanie palców:** rozchyl palce wachlarzowo — duży w jedną stronę, mały w drugą, środkowe od siebie. Trzymaj 2 s, rozluźnij. Na początku możesz pomóc sobie palcami ręki.",
       "feeling": "napięcie pod łukiem (short foot); praca palców (rozchylanie) — nigdzie indziej",
@@ -201,11 +254,21 @@
       "dose": "10 powt. wspięć / 10 powt. powolnego opuszczania",
       "timer_seconds": null,
       "both_sides": false,
-      "equipment": ["ściana do podparcia", "klocek do jogi", "piłka (opcjonalnie)"],
+      "equipment": [
+        "ściana do podparcia",
+        "klocek do jogi",
+        "piłka (opcjonalnie)"
+      ],
       "variant_prompt": "Wybierz wersję",
       "variants": [
-        {"id": "wspiecia", "label": "Wspięcia na palce (w górę — koncentryka)"},
-        {"id": "ekscentryka", "label": "Opuszczanie pięty na klocku (w dół — ekscentryka)"}
+        {
+          "id": "wspiecia",
+          "label": "Wspięcia na palce (w górę — koncentryka)"
+        },
+        {
+          "id": "ekscentryka",
+          "label": "Opuszczanie pięty na klocku (w dół — ekscentryka)"
+        }
       ],
       "instruction": "**Wspięcia (w górę):** stań przy ścianie dla balansu. Powoli wspinaj się na palce — **pięta idzie prosto w górę, lekko na zewnątrz, nie do wewnątrz**. Powoli opuszczaj. (Opcjonalnie obunóż z piłką między kostkami — piłka ma nie wypaść.)\n\n**Opuszczanie pięty (ekscentryka):** stań przodem stopy na **krawędzi klocka do jogi**, pięta nad pustką. Unieś się (lub pomóż sobie drugą nogą), a potem **na jednej nodze powoli, przez 3 s, opuszczaj piętę poniżej krawędzi**. Pracuje łydka, Achilles i rozcięgno — wprost chroni boczną kolumnę stopy (Twój ból po biegu).",
       "feeling": "praca łydki; przy opuszczaniu rozciąganie/napięcie wzdłuż Achillesa",
@@ -245,15 +308,109 @@
     {
       "code": "D1",
       "section": "D",
+      "name": "Ewersja stopy z gumą (strzałkowe)",
+      "dose": "3 serie × 15 powt. na stronę",
+      "timer_seconds": null,
+      "both_sides": true,
+      "equipment": [
+        "guma oporowa"
+      ],
+      "variant_prompt": null,
+      "variants": null,
+      "instruction": "Wzmacnia mięśnie strzałkowe po **bocznej** stronie kostki — to ta struktura, która przeciąża się na długich zejściach.\n\nSiad, noga wyprostowana. Gumę zaczep z **wewnętrznej** strony (od drugiej nogi), pętlę załóż na śródstopie. Powoli odwracaj stopę **na zewnątrz** — mały palec ucieka w bok — wbrew oporowi gumy. Powoli wracaj. Ruch z kostki, nie z całej nogi.",
+      "feeling": "praca po bocznej stronie podudzia i kostki",
+      "mistake": "obracanie całej nogi zamiast samej stopy; szarpanie zamiast wolnego ruchu",
+      "extra": "*Twoje ćwiczenie nr 1 na boczną krawędź — wprowadzaj dopiero gdy okolica jest bezbolesna i bez obrzęku.*",
+      "pinned": true,
+      "pin_reason": "priorytet: boczna krawędź stopy (mięśnie strzałkowe)"
+    },
+    {
+      "code": "D2",
+      "section": "D",
+      "name": "Wspięcia na palce — wolno, z obciążeniem (HSR)",
+      "dose": "3 s w górę / 2 s / 3 s w dół · progresja: 1×12 → 4×10 → 5×8",
+      "timer_seconds": null,
+      "both_sides": true,
+      "equipment": [
+        "klocek do jogi lub schodek",
+        "plecak z książkami/wodą (obciążenie)"
+      ],
+      "variant_prompt": "Wybierz poziom",
+      "variants": [
+        {
+          "id": "obunoz",
+          "label": "Obunóż (start, ~2 tyg.)"
+        },
+        {
+          "id": "jednonoz",
+          "label": "Jednonóż"
+        },
+        {
+          "id": "jednonoz-plecak",
+          "label": "Jednonóż + plecak"
+        }
+      ],
+      "instruction": "Buduje odporność tyłu stopy: łydka + Achilles + rozcięgno. To „heavy slow resistance\" — najmocniejszy bodziec, żeby ścięgno przebudowało się mocniejsze.\n\nStań **przodem stopy na krawędzi klocka do jogi** (lub stopnia schodów), pięta wisi za krawędzią. Powoli wespnij się na palce (3 s), przytrzymaj na górze 2 s, potem **opuść piętę poniżej poziomu klocka** (3 s), aż lekko dotknie podłogi. Tempo wolne i kontrolowane.\n\n**Obciążenie bez sprzętu:** zacznij obunóż, potem jednonóż (cała masa na jednej stopie = duży skok), a gdy to za łatwe — wkładasz do plecaka książki albo butelkę wody 5 l.",
+      "feeling": "ciężka praca łydki i ścięgna Achillesa; pieczenie pod koniec serii",
+      "mistake": "sprężynowanie/szybkie tempo; za płytkie opuszczenie pięty — pełny zakres w dół to sedno",
+      "extra": "*„Heavy\" jest względne — celuj w zmęczenie ok. 6-8 powtórzenia. Pełna przebudowa ścięgna to 6-12 tygodni konsekwencji.*",
+      "pinned": true,
+      "pin_reason": "priorytet: odbudowa odporności tyłu stopy (rozcięgno/Achilles)"
+    },
+    {
+      "code": "D3",
+      "section": "D",
+      "name": "Inwersja stopy z gumą (piszczelowy tylny)",
+      "dose": "3 serie × 15 powt. na stronę",
+      "timer_seconds": null,
+      "both_sides": true,
+      "equipment": [
+        "guma oporowa"
+      ],
+      "variant_prompt": null,
+      "variants": null,
+      "instruction": "Druga oś stopy: wzmacnia mięsień piszczelowy tylny, który podtrzymuje łuk od **wewnętrznej** strony — ważne przy stopie płasko-koślawej.\n\nSiad, noga wyprostowana. Gumę zaczep z **zewnętrznej** strony, pętlę na śródstopiu. Obracaj stopę **do wewnątrz** (duży palec w stronę drugiej nogi) wbrew oporowi. Powoli wracaj.",
+      "feeling": "praca po wewnętrznej stronie kostki i goleni",
+      "mistake": "obracanie całej nogi z biodra zamiast ruchu w samej stopie",
+      "extra": "*Para z S1 — ewersja + inwersja równoważą stopę z obu stron.*"
+    },
+    {
+      "code": "D4",
+      "section": "D",
+      "name": "Winda palucha — rozciąganie rozcięgna",
+      "dose": "4 powt. × od 10 do 40 s, 2× dziennie",
+      "timer_seconds": 40,
+      "both_sides": true,
+      "equipment": [
+        "żaden"
+      ],
+      "variant_prompt": null,
+      "variants": null,
+      "instruction": "Utrzymuje elastyczność rozcięgna i tłumi poranną sztywność.\n\nSiad, chora stopa oparta na kolanie drugiej nogi. Złap dłonią stopę **razem z paluchem** i naciągnij grzbietowo (na siebie), aż poczujesz ciągnięcie wzdłuż spodu stopy. Paluch jest najważniejszy. Trzymaj 10 s, co kilka dni dokładaj 5 s, aż dojdziesz do 40 s.",
+      "feeling": "rozciąganie wzdłuż spodu stopy, od pięty do palców",
+      "mistake": "robienie rano na zimno — najpierw rozrusz stopę ~30-60 min",
+      "extra": "*Jedyne „miękkie\" ćwiczenie w tej sekcji — mobilność, nie siła.*"
+    },
+    {
+      "code": "E1",
+      "section": "E",
       "name": "Mostek",
       "dose": "12 powt. (obunóż) / 10 na stronę (jednonóż)",
       "timer_seconds": null,
       "both_sides": true,
-      "equipment": ["mata"],
+      "equipment": [
+        "mata"
+      ],
       "variant_prompt": "Wybierz wersję",
       "variants": [
-        {"id": "obunoz", "label": "Obunóż"},
-        {"id": "jednonoz", "label": "Jednonóż"}
+        {
+          "id": "obunoz",
+          "label": "Obunóż"
+        },
+        {
+          "id": "jednonoz",
+          "label": "Jednonóż"
+        }
       ],
       "instruction": "Połóż się na plecach, kolana zgięte, stopy blisko pośladków. **Mocno ściśnij pośladki** i unieś biodra — od kolan do barków prosta linia. Trzymaj 2 s na górze. Powoli opuść.\n\n**Jednonóż:** wyprostuj jedną nogę w powietrzu (uda obok siebie), wypchnij biodra pracującą nogą. Biodra równo, nie opadają na bok.",
       "feeling": "pośladki. Nie lędźwie, nie tylne uda",
@@ -261,13 +418,15 @@
       "extra": null
     },
     {
-      "code": "D2",
-      "section": "D",
+      "code": "E2",
+      "section": "E",
       "name": "Muszelka z gumą",
       "dose": "12 powt. na stronę",
       "timer_seconds": null,
       "both_sides": true,
-      "equipment": ["guma typu pętla"],
+      "equipment": [
+        "guma typu pętla"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Załóż gumę na uda, tuż nad kolanami. Połóż się na boku, kolana zgięte 90°, stopy ułożone jedna na drugiej. Bez odrywania stóp i bez przekręcania bioder do tyłu — **otwórz górne kolano** w bok jak muszla. Trzymaj 1 s u góry, powoli zamykaj.",
@@ -276,13 +435,15 @@
       "extra": null
     },
     {
-      "code": "D3",
-      "section": "D",
+      "code": "E3",
+      "section": "E",
       "name": "Kroki bokiem z gumą",
       "dose": "10 kroków × 2 (tam i z powrotem)",
       "timer_seconds": null,
       "both_sides": false,
-      "equipment": ["guma typu pętla"],
+      "equipment": [
+        "guma typu pętla"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Załóż gumę nad kolanami (lub na kostkach dla większego oporu). Lekki półprzysiad, stopy na szerokość bioder, palce do przodu. Krok w bok jedną nogą — szeroko. Druga noga dochodzi za nią, **z odstępem** (guma cały czas napięta). 10 kroków w jedną stronę, powrót w drugą.",
@@ -291,17 +452,27 @@
       "extra": null
     },
     {
-      "code": "D4",
-      "section": "D",
+      "code": "E4",
+      "section": "E",
       "name": "Przywodziciele (wewnętrzna strona uda)",
       "dose": "15 powt. × 5 s ścisk  ·  lub  12 powt. × 2 serie na stronę",
       "timer_seconds": 5,
       "both_sides": true,
-      "equipment": ["piłka 20-25 cm", "guma oporowa", "stały punkt zaczepienia"],
+      "equipment": [
+        "piłka 20-25 cm",
+        "guma oporowa",
+        "stały punkt zaczepienia"
+      ],
       "variant_prompt": "Wybierz wersję (robisz jedną)",
       "variants": [
-        {"id": "pilka", "label": "Ściskanie piłki udami"},
-        {"id": "guma", "label": "Przyciąganie nogi z gumą (izolowane)"}
+        {
+          "id": "pilka",
+          "label": "Ściskanie piłki udami"
+        },
+        {
+          "id": "guma",
+          "label": "Przyciąganie nogi z gumą (izolowane)"
+        }
       ],
       "pinned": true,
       "pin_reason": "Priorytet trenera — wzmocnij wewnętrzną stronę uda (adduktory).",
@@ -311,17 +482,26 @@
       "extra": "**2–3× w tygodniu.** Priorytet trenera."
     },
     {
-      "code": "E1",
-      "section": "E",
+      "code": "F1",
+      "section": "F",
       "name": "Przysiad",
       "dose": "10 powt.",
       "timer_seconds": null,
       "both_sides": false,
-      "equipment": ["dwie kostki do jogi", "krzesło"],
+      "equipment": [
+        "dwie kostki do jogi",
+        "krzesło"
+      ],
       "variant_prompt": "Wybierz wersję",
       "variants": [
-        {"id": "kostki", "label": "Z piętami na kostkach (wkręcanie stóp)"},
-        {"id": "krzeslo", "label": "Do krzesła (powolne siadanie 3 s)"}
+        {
+          "id": "kostki",
+          "label": "Z piętami na kostkach (wkręcanie stóp)"
+        },
+        {
+          "id": "krzeslo",
+          "label": "Do krzesła (powolne siadanie 3 s)"
+        }
       ],
       "pinned": true,
       "pin_reason": "Priorytet trenera — prawidłowy wzorzec ruchu (\"wkręcaj stopy w ziemię\").",
@@ -331,13 +511,15 @@
       "extra": "*Najważniejsze:* kolana nie do środka, ruch kontrolowany. Wersja na kostkach uczy wzorca, wersja do krzesła dokłada ekscentrykę."
     },
     {
-      "code": "E2",
-      "section": "E",
+      "code": "F2",
+      "section": "F",
       "name": "Wykrok w tył (reverse lunge)",
       "dose": "8 powt. na stronę",
       "timer_seconds": null,
       "both_sides": true,
-      "equipment": ["ściana / krzesło dla balansu (opcjonalnie)"],
+      "equipment": [
+        "ściana / krzesło dla balansu (opcjonalnie)"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Stań prosto, stopy na szerokość bioder. Zrób **krok jedną nogą w TYŁ** i zejdź w dół — przednie kolano zgina się **nad palcami stopy (nie do środka)**, tylne kolano schodzi w stronę podłogi. Tułów prosto. Odepchnij się przednią nogą i wróć do stania. Powtórz na tę samą nogę, potem zmień. (Ręką możesz dotykać ściany/krzesła dla balansu.)",
@@ -346,13 +528,15 @@
       "extra": "Stabilniejszy i prostszy niż bułgarski (tylna noga zostaje na podłodze). Siła jednonóż — bo bieganie to ruch na jednej nodze."
     },
     {
-      "code": "E3",
-      "section": "E",
+      "code": "F3",
+      "section": "F",
       "name": "Wall sit (przysiad do ściany)",
       "dose": "2 × 30–45 s",
       "timer_seconds": 40,
       "both_sides": false,
-      "equipment": ["ściana"],
+      "equipment": [
+        "ściana"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Oprzyj plecy płasko o ścianę, zejdź w dół zsuwając się po niej, aż **kolana będą zgięte ok. 90°** (jakbyś siedział na niewidzialnym krześle). Uda równolegle do podłogi, kolana nad kostkami, **nie zapadają do środka**. Plecy przyklejone do ściany. Trzymaj, oddychaj spokojnie.",
@@ -361,8 +545,8 @@
       "extra": "Zero balansu, bardzo prosty. Wprost wzmacnia czworogłowy i kontrolę kolana — trafia w objaw „ciśnienia w kolanie\" po biegu."
     },
     {
-      "code": "E4",
-      "section": "E",
+      "code": "F4",
+      "section": "F",
       "name": "Hip hinge (zawias biodrowy)",
       "dose": "10 powt.",
       "timer_seconds": null,
@@ -382,7 +566,9 @@
       "dose": "10 wymachów na stronę + 10 krążeń",
       "timer_seconds": null,
       "both_sides": true,
-      "equipment": ["ściana / coś do podparcia"],
+      "equipment": [
+        "ściana / coś do podparcia"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Przy ścianie dla balansu.\n\n**Wymachy przód-tył:** machaj wyprostowaną nogą do przodu i do tyłu, swobodnie, stopniowo zwiększając zakres. 10× na nogę.\n\n**Wymachy na boki:** noga przed tułowiem, machaj w prawo-lewo. 10× na nogę.\n\n**Krążenia bioder:** ręce na biodrach, duże koła miednicą — 10 w każdą stronę.",
@@ -442,11 +628,19 @@
       "dose": "30 s prosta + 30 s ugięta noga, na stronę",
       "timer_seconds": 30,
       "both_sides": true,
-      "equipment": ["ściana"],
+      "equipment": [
+        "ściana"
+      ],
       "variant_prompt": "Wybierz wersję",
       "variants": [
-        {"id": "gastrocnemius", "label": "Noga prosta — gastrocnemius (góra łydki)"},
-        {"id": "soleus", "label": "Kolano ugięte — soleus (niżej, Achilles)"}
+        {
+          "id": "gastrocnemius",
+          "label": "Noga prosta — gastrocnemius (góra łydki)"
+        },
+        {
+          "id": "soleus",
+          "label": "Kolano ugięte — soleus (niżej, Achilles)"
+        }
       ],
       "instruction": "Wykrok przy ścianie, ćwiczona noga z tyłu, **pięta przyklejona do podłogi**, biodra w przód.\n\n- **Noga prosta (gastrocnemius):** tylne kolano wyprostowane — czujesz w górnej części łydki.\n- **Kolano ugięte (soleus):** lekko ugnij tylne kolano — czujesz niżej, bliżej Achillesa.",
       "feeling": "rozciąganie wzdłuż łydki i Achillesa",
@@ -460,7 +654,9 @@
       "dose": "30 s na stronę",
       "timer_seconds": 30,
       "both_sides": true,
-      "equipment": ["ściana (opcjonalnie dla balansu)"],
+      "equipment": [
+        "ściana (opcjonalnie dla balansu)"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Stojąc, złap jedną stopę za sobą i **przyciągnij piętę do pośladka**. Kolana obok siebie, biodra wypchnięte w przód (nie odstawiaj kolana na bok). Druga ręka opcjonalnie o ścianę dla balansu. Zmień nogę.",
@@ -475,7 +671,9 @@
       "dose": "30 s na stronę",
       "timer_seconds": 30,
       "both_sides": true,
-      "equipment": ["niskie podwyższenie (krawężnik, próg) — opcjonalnie"],
+      "equipment": [
+        "niskie podwyższenie (krawężnik, próg) — opcjonalnie"
+      ],
       "variant_prompt": null,
       "variants": null,
       "instruction": "Na stojąco: jedną nogę wysuń do przodu, **piętą oprzyj o niskie podwyższenie** (krawężnik, próg) lub zostaw na podłodze z palcami w górę. Noga prosta. **Pochyl się od bioder** (nie zaokrąglaj pleców), wypychając pośladek do tyłu, aż poczujesz rozciąganie z tyłu uda. Zmień nogę.",

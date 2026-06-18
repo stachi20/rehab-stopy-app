@@ -88,10 +88,13 @@ export function HomePage() {
         </summary>
         <div className="px-4 pb-4 text-sm text-muted-foreground space-y-2 leading-relaxed">
           <p>
-            <strong className="text-foreground">Codziennie (~15 min):</strong> wybierz 1 ćwiczenie z każdej sekcji <strong>A → B → C → D</strong>, idź w tej kolejności.
+            <strong className="text-foreground">Codziennie (~15 min):</strong> wybierz 1 ćwiczenie z <strong>A → B → C</strong>, plus 1 z <strong>E</strong> (pośladki).
           </p>
           <p>
-            <strong className="text-foreground">Co 2-3 dni dodaj 1 z E</strong> (sesja pełna, ~25 min).
+            <strong className="text-foreground">Sekcja D — Odporność ścięgien</strong> (po C): wzmacnianie pod bieganie, 3-4× w tygodniu, na rozgrzanej stopie. Dwa ★ (strzałkowe + wspięcia HSR) to baza, rotuj je dzień po dniu.
+          </p>
+          <p>
+            <strong className="text-foreground">Co 2-3 dni dodaj 1 z F</strong> (wzorzec ruchu, sesja pełna ~25 min).
           </p>
           <p>
             <strong className="text-foreground">W dni biegania:</strong> przed biegiem sekcja <strong>PRZED</strong> (rozgrzewka), po biegu sekcja <strong>PO</strong> (rozciąganie). Niezależnie od reszty.
@@ -105,7 +108,7 @@ export function HomePage() {
       <section className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Rehab codzienny</h2>
-          <span className="text-xs text-muted-foreground">A → B → C → D → E</span>
+          <span className="text-xs text-muted-foreground">A → B → C → D → E → F</span>
         </div>
         <ul className="space-y-3">
           {rehabSections.map((s) => (
