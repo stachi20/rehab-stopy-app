@@ -7,7 +7,7 @@ export function Layout() {
       <header className="border-b sticky top-0 bg-background/80 backdrop-blur z-10">
         <div className="max-w-2xl mx-auto px-4 h-14 flex items-center justify-between">
           <Link to="/" className="font-medium tracking-tight">
-            Rehab stóp
+            I'm a mothafucking BEAST
           </Link>
           <ThemeToggle />
         </div>
